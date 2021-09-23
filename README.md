@@ -1,0 +1,2 @@
+Hi! This is a quiz that I created using repl.it in JS and it asks some questions related to me.Wanna play it and know how much you score? Here's the link to play! 
+https://replit.com/@JaySharma12/Do-You-Know-Jay?embed=true#index.js
