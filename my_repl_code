@@ -1,0 +1,40 @@
+var readLinesync=require('readline-sync');
+
+var score=0;
+function Ask(question, answer){
+  var Ques=readLinesync.question(question);
+
+  if(Ques===answer)
+  {
+    console.log('right');
+    score++;
+    console.log('current score: ',score);
+  }
+  else
+  {
+    console.log('wrong');
+    console.log('current score: ',score);
+  }
+  console.log('-----------');
+}
+
+var userName=readLinesync.question("What's your name?");
+console.log("Welcome "+userName+" to DO YOU KNOW Jay?");
+
+Ask("Where do I live? ", "Abad");
+Ask("Where do I work? ", "Acc");
+Ask("My favorite Hollywood movie would be? ", "SR");
+
+var P1={
+  name: "Jay",
+  score: "3"
+}
+var P2={
+  name: "Shik",
+  score: "2"
+}
+
+console.log('YAY! You scored ', score);
+console.log("Check out the high scores, if you should be there ping me and I'll update it");
+console.log(P1.name," : ",P1.score);
+console.log(P2.name," : ",P1.score);
